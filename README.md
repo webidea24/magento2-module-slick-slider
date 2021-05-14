@@ -9,7 +9,7 @@ this module integrates the [slick slider](https://kenwheeler.github.io/slick/).
 Install the extension via composer:
 
 ```
-composer install webidea24/magento2-module-slickslider
+composer install webidea24/magento2-module-slick-slider
 ```
 
 ## Usage - Example
