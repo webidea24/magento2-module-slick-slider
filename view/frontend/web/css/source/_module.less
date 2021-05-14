@@ -1,0 +1,28 @@
+& when (@media-common = true) {
+  @import 'lib/_slick.less';
+
+  .row.slider:not(.slick-initialized) {
+    overflow: hidden;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .row.slider.slick-initialized {
+    .slick-slide[class^="col-"] {
+      margin: 0;
+    }
+  }
+
+  .products.slider:not(.slick-initialized) {
+    white-space: nowrap;
+    overflow: hidden;
+
+    & > * {
+      width: 250px !important;
+    }
+
+    .product {
+      white-space: normal;
+    }
+  }
+}
